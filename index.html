@@ -10,46 +10,77 @@
 </head>
 <body>
     <header>   
-        <div class="logo"><img src="img/Logo.svg" alt="logo"></div>
-        <div class="navbar">
-            <nav>
-            <a href="#" id="barra">
-                <p>Products</p>
-            </a>
-            
-            <div id="navegation">
-                <img src="" alt="foto-icone">
-                <h1>Spense</h1>
-                <p>Spense is a landing page for writers. Great for practicing absolute positioning and flex layouts.</p>
-                
-                <img src="" alt="foto-icone">
-                <h1>Fiber Landing Page</h1>
-                <p>An online portfolio generator. Great to practice flex/grid layouts, and absolute positioning.</p>
-                
-                <img src="" alt="foto-icone">
-                <h1>Gradie Sign Up Page</h1>
-                <p>Gradie is a simple sign up page, great to practice centering layouts.</p>
-                <a href="#">
-            </div>
-                <p>Challenges</p>
-            </a>  
-            <a href="#">
-                <p>Resources</p>
-            </a>
-            <a href="#">
-                <p>Other Links</p>
-            </a>
-            </nav>
+    <nav>
+        <div class="logo">
+            <img src="img/Logo.svg" alt="logo">
         </div>
-        <div class="Login"> 
+
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                <div id="navegation" style="display: none;">
+                    <img src="" alt="foto-icone">
+                    <h1>Spense</h1>
+                    <p>Spense is a landing page for writers. Great for practicing absolute positioning and flex layouts.</p>
+                    
+                    <img src="" alt="foto-icone">
+                    <h1>Fiber Landing Page</h1>
+                    <p>An online portfolio generator. Great to practice flex/grid layouts, and absolute positioning.</p>
+                    
+                    <img src="" alt="foto-icone">
+                    <h1>Gradie Sign Up Page</h1>
+                    <p>Gradie is a simple sign up page, great to practice centering layouts.</p>
+                    <a href="#">
+                </div>    
+                <li class="nav-item"><a class="nav-link" href="#">Challenges</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Other Links</a></li>
+            </ul>
+        </div>
+
+        <div class="Login-bottom"> 
             <a href="#">
                 <p>Sign in</p>
             </a>
-            <a href="#" id="try">
-                <p>Try for free</p>
-            </a>
+            <button><a href="">Try for free</a></button>
         </div>
+        <div class="menu-icon">
+            <button onclick="menuSHOW()"><img class="icon" src="" alt="menu"></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" style="display: none;">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                    <div id="navegation" style="display: none;">
+                        <img src="" alt="foto-icone">
+                        <h1>Spense</h1>
+                        <p>Spense is a landing page for writers. Great for practicing absolute positioning and flex layouts.</p>
+                        
+                        <img src="" alt="foto-icone">
+                        <h1>Fiber Landing Page</h1>
+                        <p>An online portfolio generator. Great to practice flex/grid layouts, and absolute positioning.</p>
+                        
+                        <img src="" alt="foto-icone">
+                        <h1>Gradie Sign Up Page</h1>
+                        <p>Gradie is a simple sign up page, great to practice centering layouts.</p>
+                        <a href="#">
+                    </div>    
+                    <li class="nav-item"><a class="nav-link" href="#">Challenges</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Other Links</a></li>
+                </ul>
+    
+            <div class="Login-bottom"> 
+                <a href="#">
+                    <p>Sign in</p>
+                </a>
+                <button><a href="">Try for free</a></button>
+            </div>
+    </div>
     </header>
+    <script src="java/script.js"></script>
+
     <main>  
 
     </main>
